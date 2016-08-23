@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"tex",
+				"text-align"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
 				"zeo",
 				"zeonCheck"
 			],
@@ -502,23 +514,35 @@
 			[
 				"spe",
 				"specialPriceToDate"
-			],
-			[
-				"getSpe",
-				"getSpecialToDate"
-			],
-			[
-				"getSpeic",
-				"getSpecialFromDate"
-			],
-			[
-				"specai",
-				"specialPriceFromDate"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12288,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/landing-page.css",
+			"settings":
+			{
+				"buffer_size": 3267,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/bootstrap.min.css",
+			"settings":
+			{
+				"buffer_size": 149050,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -556,6 +580,10 @@
 	],
 	"file_history":
 	[
+		"/home/sai-roanuz/projects/my-projects/bootstrap/README.md",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/css/bootstrap.min.css",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/css/bootstrap.css",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/css/landing-page.css",
 		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/persistent/checkout/onepage/billing.phtml",
 		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/checkout/onepage.phtml",
 		"/home/sai-roanuz/projects/elko/src/elko/app/elkoConfig.php",
@@ -679,11 +707,7 @@
 		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner/Edit/Form.php",
 		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner/Edit/Tab/Form.php",
 		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner/Edit/Tabs.php",
-		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/bannerslider/slider10.phtml",
-		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/bannerslider/slider7.phtml",
-		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/bannerslider/slider5.phtml",
-		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/bannerslider/slider6.phtml",
-		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Zeon/Manufacturer/etc/config.xml"
+		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/bannerslider/slider10.phtml"
 	],
 	"find":
 	{
@@ -829,6 +853,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".btn-circle {",
+			".btn {",
+			".btn",
+			"400px",
+			"navbar-brand",
+			"ul",
+			"list-inline",
+			"nav",
+			".top",
+			".topnav",
+			".top",
+			"a",
+			".navbar-default",
 			"review",
 			"sorted_billing_address",
 			"shipping",
@@ -943,20 +980,7 @@
 			"GrandTotal()",
 			"total",
 			"format",
-			"'order'",
-			"queueNewOrderEmail",
-			"sendNewOrderEmail",
-			"setCustomerNoteNotify",
-			"getCustomerNoteNotify",
-			"payment",
-			"paymentBlockHtml",
-			"  $mailer->setTemplateParams",
-			"sendNewOrderEmail",
-			"shipping_description",
-			"redirect",
-			"prevent",
-			"store",
-			"zeon_manufacturer/"
+			"'order'"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -984,8 +1008,99 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12288,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7472,
+								7472
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2532.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/landing-page.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3265,
+								3265
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3060.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/bootstrap.min.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 149050,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58209,
+								58209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 52861.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1328,7 +1443,7 @@
 		[
 			[
 				"",
-				"~/projects/my-projects/opencart-2.0.3.1/opencart-2.0.3.1.sublime-project"
+				"~/projects/elko/elko.sublime-project"
 			],
 			[
 				" ",

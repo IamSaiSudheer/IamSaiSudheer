@@ -193,3 +193,9 @@ p.copyright {
 #map {
     height: 50%;
 }
+span.fill-red {
+    color:  #AA0B17;
+}
+span.fill-white {
+    color:  #FFF;
+}
