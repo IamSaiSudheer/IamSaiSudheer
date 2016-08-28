@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12288,
+				"buffer_size": 12462,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "css/landing-page.css",
 			"settings":
 			{
-				"buffer_size": 3267,
+				"buffer_size": 3344,
 				"line_ending": "Unix"
 			}
 		},
@@ -853,6 +853,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"li {",
+			"li",
 			".btn-circle {",
 			".btn {",
 			".btn",
@@ -978,9 +980,7 @@
 			"number",
 			"format",
 			"GrandTotal()",
-			"total",
-			"format",
-			"'order'"
+			"total"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1017,15 +1017,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12288,
+						"buffer_size": 12462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7472,
-								7472
+								9244,
+								9244
 							]
 						],
 						"settings":
@@ -1035,7 +1035,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2532.0,
+						"translation.y": 2040.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1047,15 +1047,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3267,
+						"buffer_size": 3344,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3265,
-								3265
+								110,
+								110
 							]
 						],
 						"settings":
@@ -1065,7 +1065,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3060.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -1084,8 +1084,8 @@
 						"selection":
 						[
 							[
-								58209,
-								58209
+								80710,
+								80710
 							]
 						],
 						"settings":
@@ -1095,7 +1095,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 52861.0,
+						"translation.y": 60976.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1106,7 +1106,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -1147,7 +1147,7 @@
 	"project": "iamsaisudheer.com.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

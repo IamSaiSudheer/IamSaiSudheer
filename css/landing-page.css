@@ -163,7 +163,7 @@ h6 {
 
 footer {
     padding: 20px 0;
-    background-color: #e7e7e7;
+    background-color: #000;
 }
 
 .content-align {
@@ -171,7 +171,7 @@ footer {
 }
 
 .content-align li>a {
-    color: #000;
+    color: #FFCF5B;
 }
 
 p.copyright {
@@ -191,11 +191,28 @@ p.copyright {
     color: #FFCF5B;
 }
 #map {
-    height: 50%;
+    height: 60%;
+    border-top: 2px solid #000000;
 }
 span.fill-red {
     color:  #AA0B17;
 }
 span.fill-white {
     color:  #FFF;
+}
+.cancel-btn {
+    min-width: 30%;
+    padding: 10px;
+    margin: 20px;
+    font-size: 16px;
+    color: #000;
+    background-color: #FFCF5B;
+}
+.submit-btn {
+    min-width: 30%;
+    padding: 10px;
+    margin: 20px;
+    font-size: 16px;
+    color: #FFCF5B;
+    background-color: #000000;
 }

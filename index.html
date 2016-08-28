@@ -19,6 +19,7 @@
         <!-- Custom Fonts -->
         <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href='css/custom.css' rel='stylesheet' type='text/css'>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -75,7 +76,7 @@
                     <div class="col-lg-12">
                         <div class="intro-message">
                             <h1>Iam Sai Sudheer</h1>
-                            <h3>Web Developer from Chennai!</h3>
+                            <h3>Software Developer from Chennai !</h3>
                             <hr class="intro-divider">
 
                             <a href="#about" class="btn btn-circle page-scroll">
@@ -132,26 +133,24 @@
         <!-- Current Work Section -->
         <section id="c-work">
             <div class="content-section-a">
-
                 <div class="container">
-
                     <div class="row">
                         <div class="col-sm-8 col-lg-7">
                             <hr class="section-heading-spacer">
                             <div class="clearfix"></div>
                             <h2 class="section-heading">Roanuz + <span class="fill-red">Human</span> = <span class="fill-white">Ruman !</span></h2>
                             
-                            <p class="lead">Here, I <i class="fa fa-heart" aria-hidden="true"></i> to work with Magento CE 1.9.1.1.  (Php developer)
+                            <p class="lead">Here, I <i class="fa fa-heart" aria-hidden="true"></i> to work with <a href="https://magento.com/" target="_blank">Magento</a> CE 1.9.1.1.  (Php developer)
                                 <ul class="fa-ul">
                                     <li><i class="fa-li fa fa-check-square-o fa-lg"></i>Integrating Templates</li>
-                                    <li><i class="fa-li fa fa-check-square-o fa-lg"></i>Developing Custom Functionalities</li>
                                     <li><i class="fa-li fa fa-check-square-o fa-lg"></i>Extending the Core Features</li>
+                                    <li><i class="fa-li fa fa-spinner fa-spin fa-lg"></i>And many more things...!!</li>
                                 </ul>
                             </p>
 
                             <hr class="section-heading-spacer">
                             <div class="clearfix"></div>
-                            <p class="lead"><i class="fa fa-lightbulb-o fa-lg aria-hidden="true"></i> : Are you curious to know how Rumans build Amazing Sports Applications ? <a href="https://www.cricketapi.com/" target="_blank">Click here</a></p>
+                            <p class="lead"><i class="fa fa-lightbulb-o fa-lg aria-hidden="true"></i> : I'm a beginner in Magento CE 1.9.1.1</p>
 
                         </div>
                         <div class="col-sm-4 col-lg-3 col-lg-offset-2">
@@ -160,18 +159,14 @@
                             </a>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
 
         <!-- Contact Section -->
     	<section  id="contact">
             <div class="banner">
-
                 <div class="container">
-
                     <div class="row">
                         <div class="col-lg-6">
                             <h2>Interested to Connect ?</h2>
@@ -190,15 +185,53 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
 
-        <!-- Google Map Section -->
+        <div class="content-section-b">
+            <div class="container">
+                <div class="row col-lg-12">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                        <h2 class="section-heading">Send a Message !</h2>
+                        <form id="contact-form" method="post" action="contact.php" role="form">
+                            <div class="messages"></div>
+
+                            <div class="col-lg-6 form-group">
+                              <label for="name">Your Name *</label>
+                            
+                              <input type="text" class="form-control required" id="name" placeholder="Enter your name" required data-error="Name is required.">
+                              <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="col-lg-6 form-group">
+                              <label for="email">Your Email *</label>
+                            
+                              <input type="email" class="form-control required" id="email" placeholder="Enter your email" required data-error="Valid Email is required.">
+                              <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="col-lg-12 form-group">
+                                <label for="message">Your message *</label>
+                            
+                                <textarea class="form-control required" rows="5" id="message" placeholder="Enter your message" required data-error="Please,leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="col-lg-12" style="text-align: center;">
+                                <button type="reset" class="btn btn-default cancel-btn">Cancel</button>
+                                <button type="submit" class="btn btn-default submit-btn">Submit</button>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Google Map Layout -->
         <div id="map"></div>
 
-        <!-- Footer Section -->
+        <!-- Footer Layout -->
         <footer>
             <div class="container">
                 <div class="row">
@@ -226,67 +259,71 @@
             </div>
         </footer>
 
-        <!-- jQuery -->
         <script src="js/jquery.js"></script>
-
-        <!-- Bootstrap Core JavaScript -->
         <script src="js/bootstrap.min.js"></script>
-
+        <script src="js/validator.js"></script>
+        <script src="js/contact.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCp0QoATv6eiXkpVGgtseHV_m_Ahi3Md1k&callback=initMap"></script>
 
         <script>
-          function initMap() {  
-            var myLatLng = {lat: 12.9826617, lng: 80.2374604};
+            function initMap() {  
+                // Map Latitude and Longitude values
+                var myLatLng = {lat: 12.9826617, lng: 80.2374604};
 
-            var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 15,
-              center: myLatLng,
-              draggable: false,
-              disableDoubleClickZoom: true,
-              scrollwheel: false,
-              zoomControl: false,
-              styles: [
-                {
-                  featureType: 'all',
-                  stylers: [
-                    { saturation: -80 }
-                  ]
-                },{
-                  featureType: 'road.arterial',
-                  elementType: 'geometry',
-                  stylers: [
-                    { hue: '#00ffee' },
-                    { saturation: 50 }
-                  ]
-                },{
-                  featureType: 'poi.business',
-                  elementType: 'labels',
-                  stylers: [
-                    { visibility: 'off' }
-                  ]
-                }
-              ]
-            });
+                // Creating new google map object and passing the map controls to it.
+                var map = new google.maps.Map(document.getElementById('map'), { 
+                    zoom: 13,
+                    disableDefaultUI: true,
+                    center: myLatLng,
+                    draggable: true,
+                    disableDoubleClickZoom: true,
+                    scrollwheel: false,
+                    zoomControl: true,
+                    styles: [
+                        {
+                            featureType: 'all',
+                            stylers: [
+                                { saturation: -80 }
+                            ]
+                        },{
+                            featureType: 'road.arterial',
+                            elementType: 'geometry',
+                            stylers: [
+                                { hue: '#00ffee' },
+                                { saturation: 50 }
+                            ]
+                        },{
+                            featureType: 'poi.business',
+                            elementType: 'labels',
+                            stylers: [
+                                { visibility: 'off' }
+                            ]
+                        }
+                    ]
+                });
 
-            var contentString = 'Prasanthi PG, 11, VOC Street, Anna Nagar, Taramani, Chennai, Tamil Nadu 600113';
+                // Content Window Information
+                var contentString = 'No. 11, VOC Street, Anna Nagar, Taramani, Chennai, Tamil Nadu 600113';
 
-            var infowindow = new google.maps.InfoWindow({
-              content: contentString
-            });
+                var infowindow = new google.maps.InfoWindow({
+                  content: contentString
+                });
 
-            var marker = new google.maps.Marker({
-              position: myLatLng,
-              map: map,
-              title: 'My Location !'
-            });
-            marker.addListener('click', function() {
-              infowindow.open(map, marker);
-            });
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: 'Click to Get My Location'
+                });
+                
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
+                });
 
-            google.maps.event.addDomListener(window, 'resize', function() {
-                map.setCenter(myLatLng);
-            });
-          }
+                google.maps.event.addDomListener(window, 'resize', function() {
+                    map.setCenter(myLatLng);
+                });
+            }
         </script>
+
     </body>
 </html>
