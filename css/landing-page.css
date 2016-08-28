@@ -100,7 +100,7 @@ h6 {
 
 .content-section-b {
     padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
+    border-top: 2px solid #000000;
     border-bottom: 1px solid #e7e7e7;
 }
 
@@ -215,4 +215,47 @@ span.fill-white {
     font-size: 16px;
     color: #FFCF5B;
     background-color: #000000;
+}
+#fixedsocial {
+    top:30%;
+    height:200px;
+    width:60px;
+    position:fixed;
+    right: 0;
+}
+.sticky-container {
+/*background-color: #333;*/
+padding: 0px;
+margin: 0px;
+position: fixed;
+right: -119px;
+top: 270px;
+width: 200px;
+}
+.sticky li {
+list-style-type: none;
+background-color: #E7E7E7;
+color: #000;
+height: 43px;
+padding: 0px;
+margin: 0px 0px 1px 0px;
+-webkit-transition: all 0.25s ease-in-out;
+-moz-transition: all 0.25s ease-in-out;
+-o-transition: all 0.25s ease-in-out;
+transition: all 0.25s ease-in-out;
+cursor: pointer;
+}
+.sticky li:hover {
+margin-left: -115px;
+}
+.sticky li img {
+float: left;
+margin: 5px 5px;
+margin-right: 10px;
+}
+.sticky li p {
+padding: 0px;
+margin: 0px;
+text-transform: uppercase;
+line-height: 43px;
 }

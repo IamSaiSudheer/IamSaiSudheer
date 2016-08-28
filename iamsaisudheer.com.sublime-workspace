@@ -520,27 +520,12 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "/home/sai-roanuz/Desktop/Telugu Film List",
 			"settings":
 			{
-				"buffer_size": 12462,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/landing-page.css",
-			"settings":
-			{
-				"buffer_size": 3344,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/bootstrap.min.css",
-			"settings":
-			{
-				"buffer_size": 149050,
-				"line_ending": "Unix"
+				"buffer_size": 126,
+				"line_ending": "Unix",
+				"name": "Tulasi"
 			}
 		}
 	],
@@ -580,10 +565,13 @@
 	],
 	"file_history":
 	[
-		"/home/sai-roanuz/projects/my-projects/bootstrap/README.md",
-		"/home/sai-roanuz/projects/my-projects/bootstrap/css/bootstrap.min.css",
-		"/home/sai-roanuz/projects/my-projects/bootstrap/css/bootstrap.css",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/index.html",
 		"/home/sai-roanuz/projects/my-projects/bootstrap/css/landing-page.css",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/contact.php",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/js/contact.js",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/css/bootstrap.min.css",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/README.md",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/css/bootstrap.css",
 		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/persistent/checkout/onepage/billing.phtml",
 		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/checkout/onepage.phtml",
 		"/home/sai-roanuz/projects/elko/src/elko/app/elkoConfig.php",
@@ -704,10 +692,7 @@
 		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/clnews/newsitem.phtml",
 		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner.php",
 		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner/Edit.php",
-		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner/Edit/Form.php",
-		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner/Edit/Tab/Form.php",
-		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner/Edit/Tabs.php",
-		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/bannerslider/slider10.phtml"
+		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner/Edit/Form.php"
 	],
 	"find":
 	{
@@ -1013,92 +998,31 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "/home/sai-roanuz/Desktop/Telugu Film List",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12462,
+						"buffer_size": 126,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9244,
-								9244
+								126,
+								126
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2040.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/landing-page.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3344,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								110,
-								110
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"auto_name": "Tulasi",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "css/bootstrap.min.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 149050,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								80710,
-								80710
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 60976.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
