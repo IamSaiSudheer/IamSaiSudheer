@@ -41,8 +41,8 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .intro-message > h1 {
@@ -284,4 +284,9 @@ hr {
 ul.list-inline > li > a,
 a.text-no-decor {
     text-decoration: none;
+}
+.landing-bg {
+    background-color: rgba(0, 0, 0, 0.82);
+    padding-top: 2%;
+    padding-bottom: 2%;
 }

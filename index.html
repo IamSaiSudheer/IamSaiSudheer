@@ -33,8 +33,7 @@
 
         <!-- Navigation Section -->
         <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-            <div class="container topnav">
-                
+            <div class="container topnav">                
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                         <span class="sr-only">Toggle navigation</span>
@@ -63,10 +62,10 @@
                             <a href="#contact">Contact</a>
                         </li>                    
                     </ul>
-                </div>
-    
+                </div>    
             </div>
         </nav>
+
 
         <!-- Landing Page Section -->
         <a name="landing-section"></a>
@@ -74,24 +73,25 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="intro-message pull-left">
-                            
-                                <h1>Iam Sai Sudheer</h1>
-                                <h3>Iam a Php Developer</h3>
+                        <div class="intro-message pull-left">                            
+                            <div class="col-sm-6 col-lg-6 landing-bg">
+                                <h2>Hello, Iam Sai Sudheer</h2>
                                 <hr class="intro-divider">
-
-                                <a href="#about" class="btn btn-circle page-scroll">
+                                <p class="lead">I’m a Php Web Developer and freelance eCommerce software developer from the heart of Chennai: India.</p>
+                                <p class="lead">    My passions lie in HTML, CSS, Php, Magento, Opencart, etc. My main goal is to deliver an high end and easy software solution, which is User-Friendly solution.  Aside from all that, I love poetry writing, listening to Selena Gomez albums, mobile games, etc.</p>
+                                <a href="#services" class="btn btn-circle page-scroll">
                                     <i class="fa fa-angle-double-down animated"></i>
                                 </a>
-                            
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- About Me Section -->
-    	<section id="about">
+
+        <!-- Services Section -->
+    	<section id="services">
             <div class="content-section-a">
                 <div class="container">
                     <div class="row">
@@ -109,12 +109,11 @@
             </div>
         </section>
 
-        <!-- Portfolio Section -->
-        <section id="portfolio">
+
+        <!-- Clients & Testimonials Section -->
+        <section id="clients">
             <div class="content-section-b">
-
                 <div class="container">
-
                     <div class="row">
                         <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                             <hr class="section-heading-spacer">
@@ -126,13 +125,12 @@
                             <img class="img-responsive" src="img/dog.png" alt="">
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </section>
 
-        <!-- Current Work Section -->
+
+        <!-- Professional Section -->
         <section id="work">
             <div class="content-section-a">
                 <div class="container">
@@ -152,8 +150,8 @@
 
                             <div class="clearfix"></div>
                             <p class="lead"><span class="fill-red"><i class="fa fa-lightbulb-o fa-lg aria-hidden="true"></i></span> : I love to Work with Fun at Roanuz as Ruman !</p>
-
                         </div>
+
                         <div class="col-sm-4 col-lg-3 col-lg-offset-2">
                             <a href="http://roanuz.com/" target="_blank">
                                 <img class="img-responsive" src="img/Roanuz-Logo.png" alt="roanuz-logo" title="Roanuz !">
@@ -164,14 +162,16 @@
             </div>
         </section>
 
-        <!-- Contact Section -->
+
+        <!-- Contact Info Section -->
     	<section  id="contact">
             <div class="content-section-b">
                 <div class="container">
-                    <div class="row col-lg-12">                        
+                    <div class="row col-lg-12">
                         <div class="clearfix"></div>
                         <h2 class="section-heading">Contact Info</h2>
                         <hr class="section-heading-spacer">
+
                         <div class="col-sm-6 lead">
                             <div class="contact-info">
                                 <span><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></span>
@@ -181,6 +181,7 @@
                                 <span><i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></span>+917708957206
                             </div>
                         </div>
+
                         <div class="col-sm-6">
                             <form id="contact-form" method="post" action="contact.php" role="form">
                                 <div class="messages"></div>
@@ -209,15 +210,17 @@
             </div>
         </section>
 
-        <!-- Google Map Layout -->
+
+        <!-- Google Map Section -->
         <div id="map"></div>
 
-        <!-- Footer Layout -->
+
+        <!-- Footer Section -->
         <footer>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 content-align">
-                        <div class="col-xs-12 col-lg-6">
+                        <div class="col-lg-6">
                             <p class="copyright pull-left">&copy; Copyright 2016, IamSaiSudheer</p>
                         </div>
 
@@ -245,13 +248,15 @@
             </div>
         </footer>
 
+
+        <!-- Social Sidebar Widget Section -->
         <div class="sticky-container">
             <ul class="sticky">
                 <li>
-                        <img width="32" height="32" title="" alt="" src="img/fb1.png" />
-                        <a href="https://www.facebook.com/nekkanti.saisudheer" target="_blank">
-                            <p>Facebook</p>
-                        </a>
+                    <img width="32" height="32" title="" alt="" src="img/fb1.png" />
+                    <a href="https://www.facebook.com/nekkanti.saisudheer" target="_blank">
+                        <p>Facebook</p>
+                    </a>
                 </li>
                 <li>
                     <img width="32" height="32" title="" alt="" src="img/tw1.png" />
@@ -268,70 +273,71 @@
             </ul>
         </div>
 
+
+        <!-- All the Script files loaded here -->
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/validator.js"></script>
         <script src="js/contact.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCp0QoATv6eiXkpVGgtseHV_m_Ahi3Md1k&callback=initMap"></script>
-
         <script>
-            function initMap() {  
-                // Map Latitude and Longitude values
-                var myLatLng = {lat: 12.9826617, lng: 80.2374604};
+            // function initMap() {  
+            //     // Map Latitude and Longitude values
+            //     var myLatLng = {lat: 12.9826617, lng: 80.2374604};
 
-                // Creating new google map object and passing the map controls to it.
-                var map = new google.maps.Map(document.getElementById('map'), { 
-                    zoom: 13,
-                    disableDefaultUI: true,
-                    center: myLatLng,
-                    draggable: true,
-                    disableDoubleClickZoom: true,
-                    scrollwheel: false,
-                    zoomControl: true,
-                    styles: [
-                        {
-                            featureType: 'all',
-                            stylers: [
-                                { saturation: -80 }
-                            ]
-                        },{
-                            featureType: 'road.arterial',
-                            elementType: 'geometry',
-                            stylers: [
-                                { hue: '#00ffee' },
-                                { saturation: 50 }
-                            ]
-                        },{
-                            featureType: 'poi.business',
-                            elementType: 'labels',
-                            stylers: [
-                                { visibility: 'off' }
-                            ]
-                        }
-                    ]
-                });
+            //     // Creating new google map object and passing the map controls to it.
+            //     var map = new google.maps.Map(document.getElementById('map'), { 
+            //         zoom: 13,
+            //         disableDefaultUI: true,
+            //         center: myLatLng,
+            //         draggable: true,
+            //         disableDoubleClickZoom: true,
+            //         scrollwheel: false,
+            //         zoomControl: true,
+            //         styles: [
+            //             {
+            //                 featureType: 'all',
+            //                 stylers: [
+            //                     { saturation: -80 }
+            //                 ]
+            //             },{
+            //                 featureType: 'road.arterial',
+            //                 elementType: 'geometry',
+            //                 stylers: [
+            //                     { hue: '#00ffee' },
+            //                     { saturation: 50 }
+            //                 ]
+            //             },{
+            //                 featureType: 'poi.business',
+            //                 elementType: 'labels',
+            //                 stylers: [
+            //                     { visibility: 'off' }
+            //                 ]
+            //             }
+            //         ]
+            //     });
 
-                // Content Window Information
-                var contentString = 'No. 11, VOC Street, Anna Nagar, Taramani, Chennai, Tamil Nadu 600113';
+            //     // Content Window Information
+            //     var contentString = 'No. 11, VOC Street, Anna Nagar, Taramani, Chennai, Tamil Nadu 600113';
 
-                var infowindow = new google.maps.InfoWindow({
-                  content: contentString
-                });
+            //     var infowindow = new google.maps.InfoWindow({
+            //       content: contentString
+            //     });
 
-                var marker = new google.maps.Marker({
-                    position: myLatLng,
-                    map: map,
-                    title: 'Click to Get My Location'
-                });
+            //     var marker = new google.maps.Marker({
+            //         position: myLatLng,
+            //         map: map,
+            //         title: 'Click to Get My Location'
+            //     });
                 
-                marker.addListener('click', function() {
-                    infowindow.open(map, marker);
-                });
+            //     marker.addListener('click', function() {
+            //         infowindow.open(map, marker);
+            //     });
 
-                google.maps.event.addDomListener(window, 'resize', function() {
-                    map.setCenter(myLatLng);
-                });
-            }
+            //     google.maps.event.addDomListener(window, 'resize', function() {
+            //         map.setCenter(myLatLng);
+            //     });
+            // }
         </script>
 
     </body>
