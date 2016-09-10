@@ -22,11 +22,11 @@ h6 {
 }
 
 .topnav {
-    font-size: 14px; 
+    font-size: 17px; 
 }
 
 .lead {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
 }
 
@@ -102,16 +102,18 @@ h6 {
     padding: 50px 0;
     border-top: 2px solid #000000;
     border-bottom: 1px solid #e7e7e7;
+    background-color: rgba(216, 216, 216, 0.44);
 }
 
 .section-heading {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .section-heading-spacer {
     float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
+    width: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.65);
 }
 
 .banner {
@@ -175,7 +177,7 @@ footer {
 }
 
 p.copyright {
-    margin: 15px 0 0;
+    color: #E7E7E7;
 }
 
 .navbar-default {
@@ -184,7 +186,7 @@ p.copyright {
 }
 
 .navbar-fixed-top {
-    border-width: 0 0 2px;
+    border-width: 0 0 3px;
 }
 
 .navbar-default .navbar-brand {
@@ -211,10 +213,14 @@ span.fill-white {
 .submit-btn {
     min-width: 30%;
     padding: 10px;
-    margin: 20px;
     font-size: 16px;
     color: #FFCF5B;
     background-color: #000000;
+    font-weight: 700;
+}
+.btn-default.disabled:hover {
+    color: #FFCF5B;
+    background-color: #000000;   
 }
 #fixedsocial {
     top:30%;
@@ -258,4 +264,24 @@ padding: 0px;
 margin: 0px;
 text-transform: uppercase;
 line-height: 43px;
+}
+.form-control {
+    padding: 12px 12px;
+    height: auto;
+    border-radius: 0px;
+}
+.contact-info,
+.contact-info > span {
+    margin: 12px;
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.list-inline {
+    text-transform: uppercase;
+}
+ul.list-inline > li > a,
+a.text-no-decor {
+    text-decoration: none;
 }
