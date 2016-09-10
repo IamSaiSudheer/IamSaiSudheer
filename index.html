@@ -337,63 +337,63 @@
         <script src="js/contact.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCp0QoATv6eiXkpVGgtseHV_m_Ahi3Md1k&callback=initMap"></script>
         <script>
-            // function initMap() {  
-            //     // Map Latitude and Longitude values
-            //     var myLatLng = {lat: 12.9826617, lng: 80.2374604};
+            function initMap() {  
+                // Map Latitude and Longitude values
+                var myLatLng = {lat: 12.9826617, lng: 80.2374604};
 
-            //     // Creating new google map object and passing the map controls to it.
-            //     var map = new google.maps.Map(document.getElementById('map'), { 
-            //         zoom: 13,
-            //         disableDefaultUI: true,
-            //         center: myLatLng,
-            //         draggable: true,
-            //         disableDoubleClickZoom: true,
-            //         scrollwheel: false,
-            //         zoomControl: true,
-            //         styles: [
-            //             {
-            //                 featureType: 'all',
-            //                 stylers: [
-            //                     { saturation: -80 }
-            //                 ]
-            //             },{
-            //                 featureType: 'road.arterial',
-            //                 elementType: 'geometry',
-            //                 stylers: [
-            //                     { hue: '#00ffee' },
-            //                     { saturation: 50 }
-            //                 ]
-            //             },{
-            //                 featureType: 'poi.business',
-            //                 elementType: 'labels',
-            //                 stylers: [
-            //                     { visibility: 'off' }
-            //                 ]
-            //             }
-            //         ]
-            //     });
+                // Creating new google map object and passing the map controls to it.
+                var map = new google.maps.Map(document.getElementById('map'), { 
+                    zoom: 13,
+                    disableDefaultUI: true,
+                    center: myLatLng,
+                    draggable: true,
+                    disableDoubleClickZoom: true,
+                    scrollwheel: false,
+                    zoomControl: true,
+                    styles: [
+                        {
+                            featureType: 'all',
+                            stylers: [
+                                { saturation: -80 }
+                            ]
+                        },{
+                            featureType: 'road.arterial',
+                            elementType: 'geometry',
+                            stylers: [
+                                { hue: '#00ffee' },
+                                { saturation: 50 }
+                            ]
+                        },{
+                            featureType: 'poi.business',
+                            elementType: 'labels',
+                            stylers: [
+                                { visibility: 'off' }
+                            ]
+                        }
+                    ]
+                });
 
-            //     // Content Window Information
-            //     var contentString = 'No. 11, VOC Street, Anna Nagar, Taramani, Chennai, Tamil Nadu 600113';
+                // Content Window Information
+                var contentString = 'No. 11, VOC Street, Anna Nagar, Taramani, Chennai, Tamil Nadu 600113';
 
-            //     var infowindow = new google.maps.InfoWindow({
-            //       content: contentString
-            //     });
+                var infowindow = new google.maps.InfoWindow({
+                  content: contentString
+                });
 
-            //     var marker = new google.maps.Marker({
-            //         position: myLatLng,
-            //         map: map,
-            //         title: 'Click to Get My Location'
-            //     });
+                var marker = new google.maps.Marker({
+                    position: myLatLng,
+                    map: map,
+                    title: 'Click to Get My Location'
+                });
                 
-            //     marker.addListener('click', function() {
-            //         infowindow.open(map, marker);
-            //     });
+                marker.addListener('click', function() {
+                    infowindow.open(map, marker);
+                });
 
-            //     google.maps.event.addDomListener(window, 'resize', function() {
-            //         map.setCenter(myLatLng);
-            //     });
-            // }
+                google.maps.event.addDomListener(window, 'resize', function() {
+                    map.setCenter(myLatLng);
+                });
+            }
         </script>
 
     </body>
