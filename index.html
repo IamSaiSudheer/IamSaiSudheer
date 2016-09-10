@@ -130,6 +130,54 @@
         </section>
 
 
+        <div class="content-section-c">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                      
+                            <!-- Bottom Carousel Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#quote-carousel" data-slide-to="1"></li>
+                              <li data-target="#quote-carousel" data-slide-to="2"></li>
+                            </ol>
+                        
+                            <!-- Carousel Slides / Quotes -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                  <div class="row">
+                                    <div class="col-sm-12">
+                                        <p class="testimonial">&ldquo;His extension to display the manufacturer (brandname) on category page fills a gap in a missing OpenCart configuration. His support is like just support should be - responsive and helpful. highly recommended!&rdquo;</p>
+                                        <span class="client-name"><strong>Martin Ba, Germany (Hamburg)</strong></span>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="item">
+                                  <div class="row">
+                                    <div class="col-sm-12">
+                                        <p class="testimonial">&ldquo;Quick response to the support mail, done a very good job in debugging by providing good support.&rdquo;</p>
+                                        <span class="client-name"><strong>Teerawee Thainugul, Thailand</strong></span>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="item">
+                                  <div class="row">
+                                    <div class="col-sm-12">
+                                        <p class="testimonial">&ldquo;Implemented the custom extension for Opencart Multi Merchant module. Done very great job. His support is responsive, helpful and flawless.&rdquo;</p>
+                                        <span class="client-name"><strong>Monika Choudhary, India</strong></span>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Professional Section -->
         <section id="work">
             <div class="content-section-a">
@@ -230,7 +278,7 @@
                                     <a href="#services">Services</a>
                                 </li>
                                 <li>
-                                    <a href="#client">Client</a>
+                                    <a href="#client">Clients</a>
                                 </li>
                                 <li>
                                     <a href="#work">Work</a>
@@ -275,6 +323,14 @@
 
 
         <!-- All the Script files loaded here -->
+        <script>
+            $(document).ready(function() {
+              //carousel options
+              $('#quote-carousel').carousel({
+                pause: true, interval: 60000,
+              });
+            });
+        </script>
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/validator.js"></script>
