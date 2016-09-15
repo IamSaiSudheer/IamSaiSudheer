@@ -2,13 +2,17 @@
 
 // configure
 $from = 'info@iamsaisudheer.com'; 
-$sendTo = 'sai.sudheer9@gmail.com';
+$to = 'sai.sudheer9@gmail.com';
 $subject = 'IamSaiSudheer - Contact Form Requested';
 $fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message');
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
-// let's do the sending
+$headers = "From: " . strip_tags($_POST['req-email']) . "\r\n";
+$headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
+$headers .= "CC: susan@example.com\r\n";
+$headers .= "MIME-Version: 1.0\r\n";
+$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
 try
 {
@@ -21,7 +25,7 @@ try
         }
     }
 
-    mail($sendTo, $subject, $emailText, "From: " . $from);
+    mail($to, $subject, $emailText, $headers);
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }

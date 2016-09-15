@@ -520,35 +520,11 @@
 	"buffers":
 	[
 		{
-			"file": "css/landing-page.css",
-			"settings":
-			{
-				"buffer_size": 4404,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/bootstrap.min.css",
-			"settings":
-			{
-				"buffer_size": 149069,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 15037,
+				"buffer_size": 19698,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "contact.php",
-			"settings":
-			{
-				"buffer_size": 1200,
-				"line_ending": "Windows"
 			}
 		}
 	],
@@ -585,16 +561,21 @@
 	"expanded_folders":
 	[
 		"/home/sai-roanuz/projects/my-projects/bootstrap",
-		"/home/sai-roanuz/projects/my-projects/bootstrap/css"
+		"/home/sai-roanuz/projects/my-projects/bootstrap/img",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/img/skills"
 	],
 	"file_history":
 	[
-		"/home/sai-roanuz/Desktop/Telugu Film List",
-		"/home/sai-roanuz/projects/my-projects/bootstrap/index.html",
-		"/home/sai-roanuz/projects/my-projects/bootstrap/css/landing-page.css",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/css/bootstrap.min.css",
 		"/home/sai-roanuz/projects/my-projects/bootstrap/contact.php",
 		"/home/sai-roanuz/projects/my-projects/bootstrap/js/contact.js",
-		"/home/sai-roanuz/projects/my-projects/bootstrap/css/bootstrap.min.css",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/index.html",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/getVisitorInfo.php",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/css/landing-page.css",
+		"/home/sai-roanuz/projects/my-projects/bootstrap/css/custom.css",
+		"/home/sai-roanuz/Desktop/Themes For Site/site-content.txt",
+		"/home/sai-roanuz/Desktop/526Sairam_BusDetails.txt",
+		"/home/sai-roanuz/Desktop/Telugu Film List",
 		"/home/sai-roanuz/projects/my-projects/bootstrap/README.md",
 		"/home/sai-roanuz/projects/my-projects/bootstrap/css/bootstrap.css",
 		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/persistent/checkout/onepage/billing.phtml",
@@ -712,11 +693,7 @@
 		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/elko_macros/macro_categorymenu_product.phtml",
 		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/menu/blue/default/link.phtml",
 		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Default.php",
-		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Bannerslider/Edit/Tabs.php",
-		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner/Grid.php",
-		"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/clnews/newsitem.phtml",
-		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner.php",
-		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Banner/Edit.php"
+		"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Magestore/Bannerslider/Block/Adminhtml/Bannerslider/Edit/Tabs.php"
 	],
 	"find":
 	{
@@ -727,6 +704,7 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/home/sai-roanuz/projects/my-projects/bootstrap",
 			"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template/catalog/product/view",
 			"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko/default/template",
 			"/home/sai-roanuz/projects/elko/src/elko/app/code/community/Mks/Storelocator",
@@ -853,8 +831,7 @@
 			"/home/sai-roanuz/projects/elko/src/elko/app/code/core/Mage/Customer",
 			"/home/sai-roanuz/projects/elko/src/elko/app/design/frontend/elko",
 			"/home/sai-roanuz/projects/elko/src/elko/app/code/core/Mage",
-			"/home/sai-roanuz/projects/elko/src/elko/app/design/adminhtml/default/default/template/catalog",
-			"/home/sai-roanuz/projects/elko/src/elko"
+			"/home/sai-roanuz/projects/elko/src/elko/app/design/adminhtml/default/default/template/catalog"
 		]
 	},
 	"find_state":
@@ -862,6 +839,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"80%",
+			"80&",
+			"img-responsive",
+			"h1",
+			".sticky li",
+			"fonts",
+			"heart",
+			"content-section-b",
+			"chennai",
+			"header",
+			"copyright",
+			"<hr class=\"section-heading-spacer\">",
 			":4625",
 			"li {",
 			"li",
@@ -977,19 +966,7 @@
 			"customer",
 			"customer_email",
 			"customer email",
-			"getCustomer",
-			"getCustomerId",
-			"customer",
-			"carrierCode",
-			"getShippingCarrier",
-			"getShippingAmount",
-			"getBaseShippingAmount",
-			"shipping",
-			"Mage::helper('core')->currency",
-			"format",
-			"number",
-			"format",
-			"GrandTotal()"
+			"getCustomer"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1017,84 +994,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/landing-page.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4404,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3181,
-								3181
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 2703.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/bootstrap.min.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 149069,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								92389,
-								92389
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 78292.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15037,
+						"buffer_size": 19698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8797,
-								8797
+								4488,
+								4488
 							]
 						],
 						"settings":
@@ -1104,37 +1021,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3060.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "contact.php",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1200,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1658.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
