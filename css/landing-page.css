@@ -341,3 +341,30 @@ p.testimonial {
 span.client-name {
     font-size: 20px;
 }
+.progress {
+    height: 30px;
+}
+.progress-bar {
+    float: right;
+    line-height: 30px;
+    font-size: 16px;
+    padding-right: 15px;
+}
+.progress-bar-html {
+    background-color: #E34C26;
+}
+.progress-bar-php {
+    background-color: #777BB4;
+}
+.progress-bar-opencart {
+    background-color: #2BC3F0;
+}
+.progress-bar-magento {
+    background-color: #F26322;
+}
+.progress-bar-bootstrap {
+    background-color: #5F4586;
+}
+.progress-bar-wordpress {
+    background-color: #0087BE;
+}
