@@ -343,12 +343,12 @@ span.client-name {
 }
 .progress {
     height: 30px;
+    margin-top: 30px;
 }
 .progress-bar {
     float: right;
     line-height: 30px;
     font-size: 16px;
-    padding-right: 15px;
 }
 .progress-bar-html {
     background-color: #E34C26;
@@ -365,6 +365,60 @@ span.client-name {
 .progress-bar-bootstrap {
     background-color: #5F4586;
 }
+
+.progress-bar-html {
+    position: relative;
+}
 .progress-bar-wordpress {
     background-color: #0087BE;
+}
+#horizontal-style {
+    display: table;
+    width: 90%;
+    position:absolute;
+    height:20px;
+}
+#horizontal-style li {
+    position:absolute;
+    list-style-type:none;
+}
+li[data-placement="top"] {
+    margin-bottom: 10px;
+}
+li[data-placement="bottom"] {
+    margin-top: 20px;
+}
+li[data-position="0"] {
+    left:5%;
+}
+li[data-position="10"] {
+    left:10%;
+}
+li[data-position="20"] {
+    left:20%;
+}
+li[data-position="30"] {
+    left:30%;
+}
+li[data-position="40"] {
+    left:40%;
+}
+li[data-position="50"] {
+    left:50%;
+}
+li[data-position="60"] {
+    left:60%;
+}
+li[data-position="70"] {
+    left:70%;
+}
+li[data-position="80"] {
+    left:80%;
+}
+li[data-position="90"] {
+    left:90%;
+}
+.status {
+    float: right;
+    padding: 7px;
 }
