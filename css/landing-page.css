@@ -422,3 +422,6 @@ li[data-position="90"] {
     float: right;
     padding: 7px;
 }
+.popover {
+    z-index: 0;
+}
