@@ -344,7 +344,7 @@ span.client-name {
 /*  Major Skills Progress Bar CSS   */
 .progress {
     height: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .progress-bar {
     float: right;
@@ -485,6 +485,7 @@ li[data-position="90"] {
   min-height: 100%;
   padding: 100px 0;
   text-align: center;
+  background-color: #e7e7e7;
 }
 .portfolio-modal .modal-content h2 {
   margin: 0;
