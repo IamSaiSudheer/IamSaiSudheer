@@ -536,3 +536,7 @@ li[data-position="90"] {
   opacity: 0;
   display: none;
 }
+.content-section-a {
+  position: relative;
+  border: 1px solid #BBB;
+}
