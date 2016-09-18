@@ -342,89 +342,45 @@ span.client-name {
     font-size: 20px;
 }
 /*  Major Skills Progress Bar CSS   */
+.tooltip{ 
+  position:relative;
+  float:left;
+}
+.tooltip > .tooltip-inner {background-color: #ffffff; padding:5px 15px; color:rgb(23,44,66); font-size:14px;}
+.popOver + .tooltip > .tooltip-arrow {    border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #eebf3f;}
 .progress {
-    height: 30px;
-    margin-top: 40px;
+  height: 30px;
+  margin-top: 43px;
+  overflow: visible;
 }
 .progress-bar {
-    float: right;
-    line-height: 30px;
-    font-size: 16px;
+  float: right;
+  line-height: 30px;
+  font-size: 16px;
+  -webkit-transition: width 1.5s ease-in-out;
+  transition: width 1.5s ease-in-out;
 }
 .progress-bar-html {
-    background-color: #E34C26;
+  background-color: #E34C26;
 }
 .progress-bar-php {
-    background-color: #777BB4;
+  background-color: #777BB4;
 }
 .progress-bar-opencart {
-    background-color: #2BC3F0;
+  background-color: #2BC3F0;
 }
 .progress-bar-magento {
-    background-color: #F26322;
+  background-color: #F26322;
 }
 .progress-bar-bootstrap {
-    background-color: #5F4586;
-}
-.progress-bar-html {
-    position: relative;
+  background-color: #5F4586;
 }
 .progress-bar-wordpress {
-    background-color: #0087BE;
-}
-/*  Major Skills Progress Bar Popup CSS   */
-#horizontal-style {
-    display: table;
-    width: 90%;
-    position:absolute;
-    height:20px;
-}
-#horizontal-style li {
-    position:absolute;
-    list-style-type:none;
-}
-li[data-placement="top"] {
-    margin-bottom: 10px;
-}
-li[data-placement="bottom"] {
-    margin-top: 20px;
-}
-li[data-position="0"] {
-    left:5%;
-}
-li[data-position="10"] {
-    left:10%;
-}
-li[data-position="20"] {
-    left:20%;
-}
-li[data-position="30"] {
-    left:30%;
-}
-li[data-position="40"] {
-    left:40%;
-}
-li[data-position="50"] {
-    left:50%;
-}
-li[data-position="60"] {
-    left:60%;
-}
-li[data-position="70"] {
-    left:70%;
-}
-li[data-position="80"] {
-    left:80%;
-}
-li[data-position="90"] {
-    left:90%;
+  background-color: #0087BE;
 }
 .status {
-    float: right;
-    padding: 7px;
-}
-.popover {
-    z-index: 0;
+  float: right;
+  padding: 7px;
 }
 /*  Portfolio Items Showcase CSS   */
 #portfolio .portfolio-item {
