@@ -3,7 +3,6 @@
 // configure
 $to = 'sai.sudheer9@gmail.com';
 $subject = 'IamSaiSudheer - Contact Form Requested';
-$message = $_POST['message'];
 
 $fields = array('name' => $_POST['name'], 'email' => $_POST['email'], 'message' => $_POST['message']);
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
@@ -31,7 +30,7 @@ try
     }
 
     // Mail it
-    mail($to, $subject, $message, $headers);
+    mail($to, $subject, $emailText, $headers);
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
