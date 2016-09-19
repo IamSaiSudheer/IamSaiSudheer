@@ -1,22 +1,25 @@
 <?php
 
 // configure
-$from = 'info@iamsaisudheer.com'; 
 $to = 'sai.sudheer9@gmail.com';
 $subject = 'IamSaiSudheer - Contact Form Requested';
-$fields = array('name' => 'Name', 'email' => 'Email', 'message' => 'Message');
+$fields = array('name' => $_POST['name'], 'email' => $_POST['email'], 'message' => $_POST['message']);
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
-$headers = "From: " . strip_tags($_POST['req-email']) . "\r\n";
-$headers .= "Reply-To: ". strip_tags($_POST['req-email']) . "\r\n";
-$headers .= "CC: susan@example.com\r\n";
-$headers .= "MIME-Version: 1.0\r\n";
-$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+// To send HTML mail, the Content-type header must be set
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+// Additional headers
+$headers .= "From: " . strip_tags($_POST['email']) . "\r\n";
+$headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+$headers .= "CC: sai.sudheer9@yahoo.in\r\n";
+
 
 try
 {
-    $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "You have new message from contact form";
 
     foreach ($_POST as $key => $value) {
 
@@ -25,11 +28,12 @@ try
         }
     }
 
+    // Mail it
     mail($to, $subject, $emailText, $headers);
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
-catch (\Exception $e)
+catch (Exception $e)
 {
     $responseArray = array('type' => 'danger', 'message' => $errorMessage);
 }
