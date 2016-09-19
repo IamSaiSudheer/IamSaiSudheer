@@ -2,10 +2,10 @@
 
 //Configure the data to be sent
 $to = 'sai.sudheer9@gmail.com';
-$subject = 'New Message : iamsaisudheer.com';
+$subject = 'New Message - IamSaiSudheer';
 $fields = array(
                 'name' => 'Sender Name ',
-                'email' => 'Contact Mail ',
+                'email' => 'Sender Email ',
                 'message' => 'Message '
                 );
 
@@ -15,21 +15,21 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 
 //To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 
 //Additional headers
-$headers .= "From: " . strip_tags('email') . "\r\n";
-$headers .= "Reply-To: ". strip_tags('email') . "\r\n";
+$headers .= "From: " . strip_tags($_POST['email']) . "\r\n";
+$headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
 $headers .= "CC: sai.sudheer9@yahoo.in\r\n";
 
 try
 {
-    $message = "Hey Sai !\n You have new message from your Personal Website <a href='http://www.iamsaisudheer.tk' target='_blank'>IamSaiSudheer.com</a>\n\n\n";
+    $message = "Hey Sai Sudheer ! <br><br> You have a message sent via <a href='http://www.iamsaisudheer.tk' target='_blank'>IamSaiSudheer.com</a><br><br><br>";
 
     foreach ($_POST as $key => $value) {
 
         if (isset($fields[$key])) {
-            $message .= "$fields[$key] : $value\n\n";
+            $message .= "$fields[$key] : $value<br><br>";
         }
     }
 
