@@ -3,6 +3,8 @@
 // configure
 $to = 'sai.sudheer9@gmail.com';
 $subject = 'IamSaiSudheer - Contact Form Requested';
+$message = $_POST['message'];
+
 $fields = array('name' => $_POST['name'], 'email' => $_POST['email'], 'message' => $_POST['message']);
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
@@ -29,7 +31,7 @@ try
     }
 
     // Mail it
-    mail($to, $subject, $emailText, $headers);
+    mail($to, $subject, $message, $headers);
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
