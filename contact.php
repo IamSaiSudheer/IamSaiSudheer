@@ -1,37 +1,40 @@
 <?php
 
-// configure
+//Configure the data to be sent
 $to = 'sai.sudheer9@gmail.com';
-$subject = 'IamSaiSudheer - Contact Form Requested';
+$subject = 'New Message : iamsaisudheer.com';
+$fields = array(
+                'name' => 'Sender Name ',
+                'email' => 'Contact Mail ',
+                'message' => 'Message '
+                );
 
-$fields = array('name' => $_POST['name'], 'email' => $_POST['email'], 'message' => $_POST['message']);
+//Success and Failure Message Content
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
 $errorMessage = 'There was an error while submitting the form. Please try again later';
 
-// To send HTML mail, the Content-type header must be set
+//To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-// Additional headers
-$headers .= "From: " . strip_tags($_POST['email']) . "\r\n";
-$headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+//Additional headers
+$headers .= "From: " . strip_tags('email') . "\r\n";
+$headers .= "Reply-To: ". strip_tags('email') . "\r\n";
 $headers .= "CC: sai.sudheer9@yahoo.in\r\n";
-
 
 try
 {
-    $emailText = "You have new message from contact form";
+    $message = "Hey Sai !\n You have new message from your Personal Website <a href='http://www.iamsaisudheer.tk' target='_blank'>IamSaiSudheer.com</a>\n\n\n";
 
     foreach ($_POST as $key => $value) {
 
         if (isset($fields[$key])) {
-            $emailText .= "$fields[$key]: $value\n";
+            $message .= "$fields[$key] : $value\n\n";
         }
     }
 
-    // Mail it
-    mail($to, $subject, $emailText, $headers);
-
+    // Initiate the Mail Functionality
+    mail($to, $subject, $message, $headers);
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
 catch (Exception $e)
@@ -49,3 +52,4 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 else {
     echo $responseArray['message'];
 }
+?>
