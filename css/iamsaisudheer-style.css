@@ -52,7 +52,12 @@ label {
 .resume-lead {
   font-size: 15px;
   font-weight: 400;
-  margin-bottom: 35px;
+  margin-bottom: 25px;
+}
+
+.para-class {
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .intro-header {
@@ -126,7 +131,7 @@ label {
     padding: 50px 0;
     border-top: 2px solid #000000;
     border-bottom: 1px solid #e7e7e7;
-    background-color: rgba(216, 216, 216, 0.44);
+    background-color: rgba(216, 216, 216, 0.48  );
 }
 
 .content-section-c {
@@ -358,7 +363,7 @@ span.client-name {
   float:left;
   z-index: 0;
 }
-.tooltip > .tooltip-inner {background-color: #ffffff; padding:5px 15px; color:rgb(23,44,66); font-size:14px;}
+.tooltip > .tooltip-inner {background-color: #ffffff; padding:5px 15px; color:rgb(23,44,66); font-size:14px; font-weight: 600;}
 .popOver + .tooltip > .tooltip-arrow {    border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #fff;}
 .progress {
   height: 30px;
@@ -442,28 +447,6 @@ span.client-name {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
-}
-/*  Resume Modal CSS */
-/*  Portfolio Items Modal CSS   */
-.portfolio-modal .resume-content {
-  border-radius: 0;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  min-height: 100%;
-  padding: 100px 0;
-  background-color: #e7e7e7;
-}
-.portfolio-modal .resume-content h2 {
-  margin: 0;
-  font-size: 3em;
-}
-.portfolio-modal .resume-content img {
-  margin-bottom: 30px;
-}
-.portfolio-modal .resume-content .item-details {
-  margin: 30px 0;
 }
 
 /*  Portfolio Items Modal CSS   */
