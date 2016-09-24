@@ -517,3 +517,9 @@ span.client-name {
 #resume {
     display: none;
 }
+.resume-top {
+  margin-top: 13px;
+}
+.work-top {
+  margin-bottom: 25px;
+}
