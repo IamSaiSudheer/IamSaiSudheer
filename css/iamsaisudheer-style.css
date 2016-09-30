@@ -17,7 +17,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
 }
 
@@ -143,6 +143,7 @@ label {
 .section-heading {
     margin-bottom: 15px;
     text-align: center;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .section-heading-spacer {
@@ -231,6 +232,9 @@ p.copyright {
 .navbar-brand {
   font-size: 25px;
   font-family: 'Berkshire Swash', cursive;
+}
+.hello {
+ font-family: 'Berkshire Swash', cursive; 
 }
 
 #map {
