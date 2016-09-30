@@ -227,6 +227,12 @@ p.copyright {
 .navbar-default .navbar-brand {
     color: #FFCF5B;
 }
+
+.navbar-brand {
+  font-size: 25px;
+  font-family: 'Berkshire Swash', cursive;
+}
+
 #map {
     height: 60%;
     border-top: 2px solid #000000;
