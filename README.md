@@ -1,4 +1,4 @@
-# My Personal Website - IamSaiSudheer
+# My Personal Website - www.iamsaisudheer.com
 
 I built this bootstrap website for using it as my Personal Website, Portfolio purposes. It is built using Bootstrap Framework and Contact Form is integrated using Php Mail function. It is a pure One Page Bootstrap Website.
 
@@ -7,5 +7,5 @@ I built this bootstrap website for using it as my Personal Website, Portfolio pu
 ![Full Page](screenshots/Full-Page-Screenshot.png)
 
 
-## Resume [Web Format] Modal
-![Resume Web Format Modal](screenshots/Resume-WebFormat.png)
+## Resume Web Format
+![Resume Web Format](screenshots/Resume-WebFormat.png)
