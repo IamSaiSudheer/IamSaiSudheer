@@ -533,3 +533,9 @@ span.client-name {
 .work-top {
   margin-bottom: 25px;
 }
+.social-links {
+  margin-bottom: 10px;
+}
+ul.item-details > li > strong {
+  color: #219ECD;
+}
