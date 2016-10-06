@@ -140,6 +140,24 @@ label {
     border-bottom: 1px solid #e7e7e7;
 }
 
+.content-section-d {
+  background-color: rgba(216, 216, 216, 0.48 );
+}
+
+.error {
+  color: #000;
+  font-size: 7em;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.error-pad {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
 .section-heading {
     margin-bottom: 15px;
     text-align: center;
