@@ -145,15 +145,22 @@ label {
 }
 
 .error {
-  color: #000;
-  font-size: 7em;
-  padding-top: 7%;
-  padding-bottom: 7%;
+    color: #000;
+    font-size: 5em;
+}
+
+.error-h2 {
+    color: #000;
+    font-size: 9em;
 }
 
 .error-pad {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
+  text-align: center;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
   display: flex;
   align-items: center;
 }
