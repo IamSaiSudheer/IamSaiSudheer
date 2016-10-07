@@ -564,3 +564,28 @@ span.client-name {
 ul.item-details > li > strong {
   color: #219ECD;
 }
+
+/* Birthday CSS */
+.bday-content-image {
+  font-family: 'Playball', cursive;
+  padding: 40px 0;  
+  background-image: url("../img/bday-backgroundimage.jpg");
+}
+.bday-para{
+  font-size: 2.5em;
+  font-weight: 500;
+  margin-left: 60px;
+}
+p::first-letter {
+  font-size: 1.3em;
+}
+span.author {
+  color: #fff;
+}
+.bday-copyright {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  text-align: center;
+  color: #000;
+}
