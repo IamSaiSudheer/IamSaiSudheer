@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="Hello, Iam Sai Sudheer. I'm a Php Web Developer based in Chennai. Iam very much passionated in working with Php, Magento, Opencart development, etc.">
-      <meta name="keywords" content="IamSaiSudheer, Iam SaiSudheer, Php Developer based in Chennai, Magento, Opencart, Bootstrap, Php, Freelancer, Plugin Development, Roanuz Sai Sudheer, Paripoorna Sai Sudheer, Bangalore Sai Sudheer">
+      <meta name="keywords" content="IamSaiSudheer, Iam SaiSudheer, Php Developer based in Chennai, Magento, Opencart, Bootstrap, Php, Freelancer, Plugin Development, Roanuz Sai Sudheer, Paripoorna Sai Sudheer, Magento developer bangalore, Frontend developer bangalore, Php developre bangalore">
       <meta name="author" content="Sai Sudheer Nekkanti">
       <title>Sai Sudheer Nekkanti- Php, Magento Developer based in Chennai, India</title>
 
@@ -33,6 +33,7 @@
         ga('send', 'pageview');
 
       </script>
+      <script src='https://www.google.com/recaptcha/api.js'></script>
 
    </head>
 
@@ -149,7 +150,7 @@
                         Iam having a zeal to implement practically what I learnt in Technical aspect. The things that I explored on Opencart Extension Development is the best example. Within a less period, I provided my service for few Clients with Opencart Community as Medium.
                      </p>
                      <p class="lead" style="text-align: center;">
-                        Click this link to visit my Opencart Extension Page. <a href="http://www.opencart.com/index.php?route=extension/extension&filter_username=IamSaiSudheer" class="text-no-decor" target="_blank">My Opencart Account <sup><i class="fa fa-external-link-square" aria-hidden="true"></i></sup></a>
+                        Click this link to visit my Opencart Extension Page. <a href="http://www.opencart.com/index.php?route=extension/extension&filter_username=IamSaiSudheer" class="text-no-decor" target="_blank">My Opencart Account <sup><i class="fa fa-external-link" aria-hidden="true"></i></sup></a>
                      </p>
                   </div>
                </div>
@@ -241,9 +242,9 @@
                      <div class="clearfix"></div>
                      <h2 class="section-heading">As a Professional</h2>
                      <hr class="section-heading-spacer">
-                     <p class="lead">Currently, Iam working as a Web Developer at <a href="http://roanuz.com/" target="_blank" class="text-no-decor"><span class="fill-red">Roanuz Softwares</span> <sup><i class="fa fa-external-link-square" aria-hidden="true"></i></sup></a>, which is a Creative Startup based in Chennai (India).</p>
+                     <p class="lead">Currently, Iam working as a Web Developer at <span class="fill-red">Roanuz Softwares</span><a href="http://roanuz.com/" target="_blank" class="text-no-decor"><sup><i class="fa fa-external-link" aria-hidden="true"></i></sup></a>, which is a Creative Startup based in Chennai (India).</p>
                      <p class="lead">
-                        Here, I <span class="fill-red"><i class="fa fa-heart fa-2x" aria-hidden="true"></i></span> to work with <a href="https://magento.com/" target="_blank" class="text-no-decor">Magento</a> eCommerce software.
+                        Here, I <span class="fill-red"><i class="fa fa-heart fa-2x" aria-hidden="true"></i></span> to work with Magento<a href="https://magento.com/" target="_blank" class="text-no-decor"><sup><i class="fa fa-external-link" aria-hidden="true"></i></sup></a> eCommerce software.
                      </p>
                      
                      <ul class="fa-ul">
@@ -255,7 +256,7 @@
                      <div class="clearfix"></div>
                      <p class="lead"><span class="fill-red"><i class="fa fa-lightbulb-o fa-lg" aria-hidden="true"></i></span>&nbsp;I love to work with fun at Roanuz as Ruman !</p>
                      <div class="clearfix"></div>
-                     <p class="lead"><span class="fill-red">Previously,</span> I worked as a Junior Analyst at <a href="http://www.paripoorna.in/" target="_blank" class="text-no-decor">Paripoorna Software Solutions</a>, Chennai (India).</p>
+                     <p class="lead"><span class="fill-red">Previously,</span> I worked as a Junior Analyst at Paripoorna Software Solutions<a href="http://www.paripoorna.in/" target="_blank" class="text-no-decor"><sup><i class="fa fa-external-link" aria-hidden="true"></i></sup></a>, Chennai (India).</p>
                   </div>
                   <div class="hidden-xs hidden-sm hidden-md col-lg-4 col-lg-offset-1">
                      <a href="http://roanuz.com/" target="_blank">
@@ -280,14 +281,14 @@
                         <div class="col-sm-6 lead">
                            <div class="contact-info">
                               <span><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></span>
-                              <a href="mailto:sai.sudheer9@gmail.com" class="text-no-decor">sai.sudheer9@gmail.com</a>
+                              sai.sudheer9@gmail.com
                            </div>
                            <div class="contact-info">
                               <span><i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i></span>+917708957206
                            </div>
                            <div class="contact-info">
                               <span><i class="fa fa-map-o fa-lg" aria-hidden="true"></i></span>
-                              Pillayar Koyil, Chennai (TN)
+                              Pillayar Koyil, Chennai (India)
                            </div>
                         </div>
 
@@ -311,14 +312,20 @@
 
                               <div class="form-group">
                                  <div class="col-lg-12">
-                                    <textarea class="form-control required" rows="5" id="message" name="message" placeholder="Message*" required data-error="Please enter a message."></textarea>
+                                    <textarea class="form-control required" rows="5" id="message" name="message" placeholder="Your Message*" required data-error="Please enter a message."></textarea>
                                     <div class="help-block with-errors"></div>
                                  </div>
                               </div>
 
                               <div class="form-group">
                                  <div class="col-lg-12">
-                                    <button type="submit" class="btn btn-default submit-btn pull-right">Send Message</button>
+                                    <div class="g-recaptcha" data-sitekey="6LeVlCcTAAAAAJXaeS55J5iE8ZfNUgBfs3xJyqoT" data-callback="enableBtn"></div>
+                                 </div>
+                              </div>
+
+                              <div class="form-group">
+                                 <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-default submit-btn pull-right" id="submit" disabled>Send Message</button>
                                  </div>
                               </div>
                            </form>
@@ -674,6 +681,10 @@
              $(this).width(each_bar_width + '%');
            });
          });
+
+         function enableBtn(){
+            document.getElementById("submit").disabled = false;
+         }
       </script>
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2zdOAevUZEPlmrft9t22awPzff5fUpcg&callback=initMap"></script>
       <script>
@@ -736,3 +747,23 @@
       </script>
    </body>
 </html>
+
+<?php
+date_default_timezone_set('Asia/Kolkata');
+
+$visit_time       =     date("d-m-Y H:i:s", time());
+$referer       =     $_SERVER['HTTP_REFERER'];
+$agent            =     $_SERVER['HTTP_USER_AGENT'];
+$ip            =     $_SERVER['REMOTE_ADDR'];
+$host_name        =     gethostbyaddr($_SERVER['REMOTE_ADDR']);
+
+//write those data to a file
+$filehandler   =  fopen('visitor-log.txt', 'a+');
+$msg        =  $visit_time."\n".
+               $referer."\n".
+               $agent."\n".
+               $ip."\n".
+               $host_name."\n\n";
+
+fwrite($filehandler, $msg);
+?>
