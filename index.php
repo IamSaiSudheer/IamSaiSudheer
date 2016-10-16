@@ -685,6 +685,16 @@
          function enableBtn(){
             document.getElementById("submit").disabled = false;
          }
+
+         $('a[href^="#"]').on('click', function(event) {
+             var target = $(this.getAttribute('href'));
+             if( target.length ) {
+                 event.preventDefault();
+                 $('html, body').stop().animate({
+                     scrollTop: target.offset().top
+                 }, 1000);
+             }
+         });
       </script>
       <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2zdOAevUZEPlmrft9t22awPzff5fUpcg&callback=initMap"></script>
       <script>
