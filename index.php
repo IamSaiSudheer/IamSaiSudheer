@@ -38,6 +38,7 @@
    </head>
 
    <body data-spy="scroll" data-target=".navbar-fixed-top">
+      <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
 
       <nav class="navbar navbar-default navbar-fixed-top topnav">
          <div class="container topnav">
@@ -656,10 +657,23 @@
       <script src="js/contact.js"></script>
       <script type="text/javascript">
          $(document).ready(function() {
-           //carousel options
-           $('#quote-carousel').carousel({
-             pause: true, interval: 8000,
-           });
+            //carousel options
+            $('#quote-carousel').carousel({
+               pause: true, interval: 8000,
+            });
+
+            $(window).scroll(function(){ 
+               if ($(this).scrollTop() > 100) { 
+                  $('#scroll').fadeIn(); 
+               } else { 
+                  $('#scroll').fadeOut(); 
+               } 
+            });
+
+            $('#scroll').click(function(){ 
+               $("html, body").animate({ scrollTop: 0 }, 600); 
+               return false; 
+            });
          });
          
          $('.mypopover').popover('show');
@@ -692,7 +706,7 @@
                  event.preventDefault();
                  $('html, body').stop().animate({
                      scrollTop: target.offset().top
-                 }, 1000);
+                 }, 800);
              }
          });
       </script>
