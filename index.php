@@ -77,7 +77,7 @@
                      <div class="col-sm-8 col-lg-6 landing-bg">
                         <h2 class="hello">Hello, Iam Sai Sudheer</h2>
                         <hr class="intro-divider">
-                        <p class="lead">I’m a Php Web Developer from the heart of Chennai(TN), India.</p>
+                        <p class="lead">I’m a Php Web Developer from Kakinada, Andhra Pradesh. I live in Chennai, Tamilnadu.</p>
                         <p class="lead"> Iam very much passionated about working independently on Php, Magento, Opencart development, etc.</p>
                         <p class="lead">Zeal to learn new things about Career &amp; Life. Loved to write Poetry, Music Lover, fan of Selena Gomez &amp; Lot-Of-Things to explore!</p>
                         <a href="#skills" class="btn btn-circle page-scroll">
