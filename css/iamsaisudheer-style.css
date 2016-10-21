@@ -603,3 +603,6 @@ ul.item-details > li > strong {
     opacity:1;filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
+#feedback-form {
+  padding: 40px 0px 0px 0px;
+}
