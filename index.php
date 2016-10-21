@@ -706,7 +706,7 @@
                  event.preventDefault();
                  $('html, body').stop().animate({
                      scrollTop: target.offset().top
-                 }, 800);
+                 }, 700);
              }
          });
       </script>
